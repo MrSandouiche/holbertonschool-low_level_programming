@@ -1,8 +1,3 @@
-#include<stdio.h>
-int main(){
-	int number ;
+#!/bin/bash
+gcc puts "Programming is like building a multilingual puzzle" 0
 
-	char string[] = "Programming is like building a multilingual puzzle"
-		puts (string);
-	return 0;
-}
