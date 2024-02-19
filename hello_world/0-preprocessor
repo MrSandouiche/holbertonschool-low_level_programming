@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc > touch "c"
+gcc -o 0-preprocessor c.c
