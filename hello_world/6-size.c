@@ -1,4 +1,11 @@
 #include <stdio.h>
+ifdef _WIN64
+#define ARCHITECTURE "64-bit"
+#elif _WIN32
+#define ARCHITECTURE "32-bit"
+#else
+#define ARCHITECTURE "unknown"
+#endif
  int main (void)
   
 {
