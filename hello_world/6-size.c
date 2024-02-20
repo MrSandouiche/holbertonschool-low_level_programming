@@ -15,4 +15,5 @@ putchar('\'');
 putchar('\t');
 
 putchar('\0');
+return (0)
 }
