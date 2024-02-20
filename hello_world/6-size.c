@@ -1,6 +1,8 @@
 #include <stdio.h>
-int main(void)
+ int main (void)
+  
 {
-	printf("Size of char : %Id byte\n",sizeof(char));
-Return(0);
+   printf ("Size of char : %ld byte\n", sizeof (char));
+   printf ("Size of int : %ld byte\n", sizeof (int));
+return(0);
 }
