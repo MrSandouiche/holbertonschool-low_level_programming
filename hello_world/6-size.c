@@ -2,5 +2,5 @@
 int main(void)
 {
 	printf("Size of char : %Id byte\n",sizeof(char));
-Return(0)
+Return(0);
 }
