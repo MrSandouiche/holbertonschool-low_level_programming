@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ *truc random
+ */
 
-/* betty style doc for function main goes there */
+/* 
+ *encore un truc random
+ */
+
+
 int main(void)
 {
 	int n;
