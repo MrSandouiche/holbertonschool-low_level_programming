@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/**
+ * main - fais un truc random pour plaire a betty
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	int n;
