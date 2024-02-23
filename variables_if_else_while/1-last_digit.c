@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
-* main - truc random pour betty
+* main Ãa permet de me dire si le nombre qui est print sera positif ou negatif
 *
-* return - Ã§a retourne ???
+* Return always 0 - success
 */
 
 
