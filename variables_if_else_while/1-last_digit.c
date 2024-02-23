@@ -7,14 +7,25 @@
 int main(void)
 {
         int n;
-        int number;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
-        number = n %10;
-        printf("The last digit of %d is %d", n , number);
-       
-        printf("and %d is 0",n);
+      
+        if ((n % 10) > 5 ) 
+        {
+            printf ("last digit of %d is greater than 5\n" , n);
+        } 
+        else if ((n % 10) < 6)
+        {
+           printf ("last digit of %d is less than 6" , n);
+          
+        } 
+        else 
+        {
+            printf ("last digit of %d is 0" , n);
+
+        }
         
-        return (0);
+        
+       return (0);
 }
