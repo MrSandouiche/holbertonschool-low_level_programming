@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* main Ãa permet de me dire si le nombre qui est print sera positif ou negatif
-*
-* Return always 0 - success
+/**
+ * main - ecrit si le nombre sera positif ou negatif
+ *
+ * Return: alors bon
 */
 
 
