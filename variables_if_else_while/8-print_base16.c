@@ -15,6 +15,8 @@ int main(void)
 
 {
 	putchar(Hex[num]);
+
+	putchar("\n");
 }
 return (0);
 }
