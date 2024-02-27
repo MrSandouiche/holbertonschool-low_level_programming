@@ -1,16 +1,20 @@
 #include <stdio.h>
 /**
-  *main - prints numbers of base 16 in lowercase
-  *Return: 0
+ *main - prints numbers of base 16 in lowercase
+ *
+ *
+ *
+ *Return: 0
 */
 int main(void)
 {
-    int num;
+	int num;
+	char Hex[] = "0123456789abcdef";
 
-    for (num = 0; num <= 15; num++)
-    {
-        printf("%x", num);
-    }
-    printf("\n");
-    return (0);
+	for (num = 0; num <= 15; num++)
+
+{
+	putchar(Hex[num]);
+}
+return (0);
 }
