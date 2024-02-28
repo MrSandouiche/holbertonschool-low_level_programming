@@ -12,8 +12,8 @@ for(i = 0; i < 10; i++)
 {
 	int j;
   for(j = 'a'; j <= 'z';j++)
-    putchar(j);
-  putchar('\n');
+    _putchar(j);
+  _putchar('\n');
 }
 
 }
