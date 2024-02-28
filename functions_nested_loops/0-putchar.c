@@ -1,11 +1,15 @@
 #include <stdio.h>
 
-int main(void)
+ int main(void)
  {
-     char *phrase = "_putchar\n";
-
-     for (int i = 0; phrase[i] != '\0'; i++) {
-         putchar(phrase[i]);
-     }
-     return (0);
- }
+     putchar('_');
+     putchar('p');
+     putchar('u');
+     putchar('t');
+     putchar('c');
+     putchar('h');
+     putchar('a');
+     putchar('r');
+     putchar('\n');
+     return(0);
+}
