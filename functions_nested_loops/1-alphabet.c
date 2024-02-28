@@ -23,9 +23,5 @@ for (i = 'a'; i <= 'z'; i++)
 */
 
 
-int main(void)
-{
-	print_alphabet();
-
 	return (0);
 }
