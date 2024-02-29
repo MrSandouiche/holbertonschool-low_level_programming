@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _isalpha - regarde si le char est en jsp il est 2h jsuis epuisé
@@ -11,14 +12,12 @@
 int _isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-
+	{
 
 	return (1);
-}
-else
-{
-
+	}
+	else
+	{
 	return (0);
-}
-return (0);
+	}
 }
