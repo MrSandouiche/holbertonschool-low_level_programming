@@ -1,10 +1,14 @@
 #include "main.h"
 
 /**
+ * _isupper - permet de vérifier si le caractère est en majuscule ou non
  *
- * _isupper - permet de check si c'est en maj ou pas
+ * Description: Cette fonction vérifie si le caractère passé en argument
+ *              est une lettre majuscule en ASCII.
  *
+ * @c: le caractère à vérifier
  *
+ * Return: 1 si le caractère est majuscule, sinon 0
  */
 
 
