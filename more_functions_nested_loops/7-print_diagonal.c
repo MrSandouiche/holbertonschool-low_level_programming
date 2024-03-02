@@ -1,22 +1,30 @@
 #include "main.h"
 
 /**
- * print_diagonal - Imprime une diagonale de caractères '\' de longueur spécifiée.
+ * print_diagonal - Imprime une diagonale de caractèe
  * @n: Longueur de la diagonale.
  *
  * Return: Aucun.
  */
 void print_diagonal(int n)
 {
-	int i, j;
+	int i, e;
 
+	if (n <= 0)
+
+	{
+	_putchar('\n');
+	}
+	else
+	{
 	for (i = 0; i < n; i++)
 	{
-	for (j = 0; j < i; j++)
+	for (e = 0; e < i; e++)
 	{
-	_putchar(' ');
+	_putchar(32);
 	}
-	_putchar('\\');
+	_putchar(92);
 	_putchar('\n');
+	}
 	}
 }
