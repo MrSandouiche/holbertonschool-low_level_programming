@@ -1,11 +1,10 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * main - Fonction principale du programme
+ * swap_int - echange les valeurs
+ * @a: Pointeur vers le premier entier.
+ * @b: Pointeur vers le deuxième entier.
  *
- * Description : initialise programme
- *
- * Return: Toujours 0
+ * Description : echange les valeurs
  */
 
 
@@ -13,15 +12,12 @@
 
 
 
-int main(void)
-{
-	int a;
-	int b;
 
-		a = 98;
-		b = 42;
-		printf("a=%d, b=%d\n", a, b);
-		swap_int(&a, &b);
-		printf("a=%d, b=%d\n", a, b);
-		return (0);
+
+
+void swap_int(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
 }
