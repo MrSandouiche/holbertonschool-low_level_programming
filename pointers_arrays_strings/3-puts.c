@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * _puts - Imprime une chaîne suivie d'une nouvelle ligne.
@@ -8,8 +8,8 @@ void _puts(char *str)
 {
 	while (*str != '\0')
 	{
-	putchar(*str);
+	write(1, str, 1);
 	str++;
 	}
-	putchar('\n');
+	write(1, "\n", 1);
 }
