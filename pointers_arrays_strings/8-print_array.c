@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_array - Imprime les n premiers éléments d'un tableau d'entie
