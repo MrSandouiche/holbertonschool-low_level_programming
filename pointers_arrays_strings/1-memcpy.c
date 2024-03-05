@@ -5,7 +5,7 @@
  * @dest: Pointeur vers la zone de m√©moire de destinatio
  * @src: Pointeur vers la zone de m√©moire sour
  * @n: Nombre d'octets a copier
- *
+ * Description: Cette fonction copie les octets de la zone m√moire point√e
  * Retour: Pointeur vers la zone de m√©moir a destinatio
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
