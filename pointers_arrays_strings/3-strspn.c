@@ -9,26 +9,20 @@
  *
  * Retour: Le nombre d'octets dans le segment initial de s
 */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;
+	unsigned int i, j;
 
-	while (*s)
+	i = 0;
+	while (s[i] != '\0')
 	{
-	int found = 0;
-
-	for (int i = 0; accept[i]; i++)
-{
-	if (*s == accept[i])
-	{
-	found = 1;
-	count++;
-	break;
+		j = 0;
+		while (accept[j] != '\0' && s[i] != accept[j])
+			j++;
+		if (accept[j] == '\0')
+			return (i);
+		i++;
 	}
-	}
-	if (!found)
-	break;
-	s++;
-}
-return (count);
+	return (i);
 }
