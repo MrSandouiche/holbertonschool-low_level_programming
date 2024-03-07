@@ -12,15 +12,26 @@
 *
 */
 
-
-
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i;
-	for (i = 0; i <= b && *s1 == *s2 && *s1 != '\0' && *s2 != '\0'; i++)
+	int i;
+
+	if (*needle == 0)
+		return (haystack);
+
+	while (*haystack)
 	{
-		s1++;
-		s2++;
+		i = 0;
+
+		if (haystack[i] == needle[i])
+		{
+			do {
+				if (needle[i + 1] == '\0')
+					return (haystack);
+				i++;
+			} while (haystack[i] == needle[i]);
+		}
+		haystack++;
 	}
-	return (i - b);
+	return ('\0');
 }
