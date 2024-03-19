@@ -3,7 +3,7 @@
 /**
  * print_name - print un nom
  * @name: le nom a print
- * @f le pointeur de la fonction
+ * @f: le pointeur de la fonction
  *
  * Return: aucun
  */
