@@ -6,6 +6,7 @@
  * @f le pointeur de la fonction
  *
  * Return: aucun
+ */
 
 
 void print_name(char *name, void (*f)(char *))
